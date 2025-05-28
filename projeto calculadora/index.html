@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora Simples</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <div class="container">
+    
+    <h1>Calculadora Aritmética</h1>
+
+    <input type="number" id="num1" placeholder="Digite o primeiro número">
+    <input type="number" id="num2" placeholder="Digite o segundo número">
+
+    <div class="botoes">
+
+      <button onclick="calcular('soma')">➕ Somar</button>
+      <button onclick="calcular('subtracao')">➖ Subtrair</button>
+      <button onclick="calcular('multiplicacao')">✖️ Multiplicar</button>
+      <button onclick="calcular('divisao')">➗ Dividir</button>
+
+    </div>
+
+    <h2 id="resultado">Resultado: </h2>
+    
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
