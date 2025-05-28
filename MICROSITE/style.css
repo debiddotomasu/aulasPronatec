@@ -1,0 +1,124 @@
+/* Estilos gerais para todos os dispositivos */
+body {
+  background: linear-gradient(to bottom, #1e3c72, #2a5298); /* Degradê azul escuro para azul claro */
+  font-family: Arial, sans-serif;
+  margin: 2dvh;
+  padding: 2dvh;
+  text-align: center;
+  color: white;
+}
+
+/* Foto do perfil */
+.foto-perfil {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+/* Cabeçalho */
+header h1 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+/* Botões de links */
+.botao-link {
+  display: block;
+  width: 60%;
+  margin: 10px auto;
+  padding: 15px;
+  background-color: #4e73df;
+  color: white;
+  text-decoration: none;
+  border-radius: 25px;
+  border: 1px solid #ffffff; /* Borda branca fina */
+  transition: background 0.3s;
+}
+
+.botao-link:hover {
+  background-color: #192d64;
+}
+
+/* Redes Sociais */
+.redes-sociais {
+  margin: 30px 0;
+}
+
+.icone-social {
+  width: 50px; /* Tamanho reduzido para manter consistência */
+  height: 50px;
+  margin: 0 10px;
+  border-radius: 50%;
+}
+
+/* Rodapé */
+footer {
+  color: white;
+  padding: 10px;
+  font-size: 12px;
+}
+
+/* ============================= */
+/* Media Queries para Responsividade */
+/* ============================= */
+
+/* Para dispositivos móveis (largura máxima de 480px) */
+@media only screen and (max-width: 480px) {
+  .foto-perfil {
+    width: 100px;
+    height: 100px;
+  }
+
+  header h1 {
+    font-size: 20px;
+  }
+
+  .botao-link {
+    width: 90%;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 25px;
+    border: 1px solid #ffffff; /* Borda branca fina */
+  }
+
+  .icone-social {
+    width: 50px;
+    height: 50px;
+    margin: 0 5px;
+  }
+
+  footer {
+    font-size: 10px;
+  }
+}
+
+/* Para tablets (largura entre 481px e 1024px) */
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+  .foto-perfil {
+    width: 100px;
+    height: 100px;
+  }
+
+  header h1 {
+    font-size: 22px;
+  }
+
+  .botao-link {
+    width: 80%;
+    padding: 14px;
+    font-size: 18px;
+    border-radius: 25px;
+    border: 1px solid #ffffff; /* Borda branca fina */
+  }
+
+  .icone-social {
+    width: 50px;
+    height: 50px;
+    margin: 0 8px;
+  }
+
+  footer {
+    font-size: 11px;
+  }
+}
