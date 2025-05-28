@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 30px;
+  background: #f0f0f0;
+  color: #333;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.buttons {
+  margin-bottom: 20px;
+}
+
+button {
+  font-size: 18px;
+  padding: 12px 25px;
+  margin: 0 10px;
+  border: 2px solid #333;
+  background-color: #fff;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ddd;
+}
+
+#resultado {
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 15px;
+  color: #006400; /* verde */
+}
+
+#jogador, #computador {
+  font-size: 18px;
+  margin: 5px 0;
+  color: #555;
+}
